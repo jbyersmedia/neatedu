@@ -1,0 +1,151 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image: url('../images/mn.jpg');
+	background-attachment: fixed;
+}
+
+h1 { font-size: 16px; }
+h2 { font-size: 14px; }
+h3 { font-size: 13px; }
+
+a:link, a:active, a:visited, a:hover {
+	color: #000099;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #9B1828;
+	text-decoration: underline;
+}
+
+#Container {
+	width: 900px;
+	margin: auto;
+}
+
+#Header {
+	height: 120px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #9B1828;
+	border-style: solid;
+	border-color: #9B1828;
+	border-width: 0px 0px 3px 0px;	
+}
+
+#LeftCol {
+	width: 133px;
+}
+
+#MidCol {
+	width: 767px;
+}
+
+#Nav a:link, #Nav a:active, #Nav a:visited, #Nav a:hover {
+	color: #000099;
+	display: block;
+	width: 126px;
+	height: 21px;
+	text-decoration: none;
+	background-image: url(../images/left-nav.gif);
+	padding-left: 7px;
+	padding-top: 5px;
+}
+
+#Nav a:hover {
+	color: #9B1828;
+	background-image: url(../images/left-nav-over.gif);
+}
+
+.Modules {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: #CECEEF;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.Modules th {
+	text-align: left;
+	background-color: #BBBBBB;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.Modules td {
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+
+.Suppress h1 { color: #999999; }
+.Suppress .Modules { border-color: #999999; }
+.Suppress .Modules th { color: #666666; background-color: #CCCCCC; }
+
+.subheader {
+	background-color: #9191DD;
+}
+
+#ScheduleListing .otherlocs td {
+	border-style: solid;
+	border-color: #9191DD;
+	border-width: 0px 0px 1px 0px;
+}
+
+#ContactListing .allbutlast {
+	border-style: solid;
+	border-color: #9191DD;
+	border-width: 0px 0px 1px 0px;	
+}
+
+#SiteListing .allbutlast {
+	border-style: solid;
+	border-color: #9191DD;
+	border-width: 0px 0px 1px 0px;	
+}
+
+#RoomListing .allbutlast {
+	border-style: solid;
+	border-color: #9191DD;
+	border-width: 0px 0px 1px 0px;	
+}
+
+#HtmlPageContent {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: #CECEEF;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.required {
+	background-color: #FFCCFF;
+}
+
+.Message {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: #FFCC00;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+div.Modules, div.Message {
+	padding: 6px 6px 6px 9px;
+}
+
+@media print {
+  #Header { display: none; }
+  #LeftCol { display: none; }
+  .Modules { background-color: white; }
+}

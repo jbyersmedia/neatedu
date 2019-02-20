@@ -1,0 +1,24 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2019-01-05 04:13:16 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:16 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:17 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:18 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:18 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:19 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:20 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:21 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:21 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:22 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:23 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:24 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:24 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:25 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 04:13:26 --> 404 Page Not Found --> author
+ERROR - 2019-01-05 19:29:22 --> 404 Page Not Found --> newevent/schedule
+ERROR - 2019-01-05 19:29:22 --> 404 Page Not Found --> newevent/sites
+ERROR - 2019-01-05 19:29:22 --> 404 Page Not Found --> newevent/rooms
+ERROR - 2019-01-05 19:29:22 --> 404 Page Not Found --> newevent/contacts
+ERROR - 2019-01-05 19:29:23 --> 404 Page Not Found --> newevent/aboutus
+ERROR - 2019-01-05 19:29:23 --> 404 Page Not Found --> newevent/howto
+ERROR - 2019-01-05 19:29:23 --> 404 Page Not Found --> newevent/sites

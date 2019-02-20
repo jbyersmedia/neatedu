@@ -1,0 +1,25 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-12-07 03:27:27 --> 404 Page Not Found --> blog
+ERROR - 2016-12-07 03:39:17 --> 404 Page Not Found --> mdocs-img-preview
+ERROR - 2016-12-07 03:42:06 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 03:44:00 --> 404 Page Not Found --> wp-content
+ERROR - 2016-12-07 03:45:43 --> 404 Page Not Found --> photocrati_ajax
+ERROR - 2016-12-07 03:47:22 --> 404 Page Not Found --> wp-content
+ERROR - 2016-12-07 03:49:27 --> 404 Page Not Found --> wp-content
+ERROR - 2016-12-07 03:50:54 --> 404 Page Not Found --> wp-content
+ERROR - 2016-12-07 03:52:30 --> 404 Page Not Found --> magmi
+ERROR - 2016-12-07 03:54:04 --> 404 Page Not Found --> mdocs-posts
+ERROR - 2016-12-07 03:55:41 --> 404 Page Not Found --> wordpress
+ERROR - 2016-12-07 03:57:41 --> 404 Page Not Found --> wordpress
+ERROR - 2016-12-07 03:59:46 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:02:13 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:04:16 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:06:24 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:08:49 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:10:49 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:14:55 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:16:47 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:18:48 --> 404 Page Not Found --> wp-admin
+ERROR - 2016-12-07 04:20:47 --> 404 Page Not Found --> wp-content
+ERROR - 2016-12-07 04:22:54 --> 404 Page Not Found --> wp-content

@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^neatedu\.net [NC]
+RewriteRule (.*) http://www.neatedu.net/$1 [R=303,L]
+
+
+RedirectMatch	permanent	^/$	/a/schedule
+RedirectMatch   permanent       ^/index.html	/a/schedule
+RedirectMatch   permanent       ^/index.php	/a/schedule

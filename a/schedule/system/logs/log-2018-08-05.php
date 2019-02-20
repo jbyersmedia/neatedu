@@ -1,0 +1,24 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-08-05 14:29:29 --> 404 Page Not Found --> wp-includes
+ERROR - 2018-08-05 14:29:29 --> 404 Page Not Found --> xmlrpc_php
+ERROR - 2018-08-05 14:29:30 --> 404 Page Not Found --> blog
+ERROR - 2018-08-05 14:29:30 --> 404 Page Not Found --> wordpress
+ERROR - 2018-08-05 14:29:30 --> 404 Page Not Found --> wp
+ERROR - 2018-08-05 14:29:30 --> 404 Page Not Found --> site
+ERROR - 2018-08-05 14:29:30 --> 404 Page Not Found --> cms
+ERROR - 2018-08-05 20:42:12 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:15 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:16 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:16 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:17 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:18 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:18 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:20 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:22 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:23 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:23 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:24 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:25 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:25 --> 404 Page Not Found --> author
+ERROR - 2018-08-05 20:42:29 --> 404 Page Not Found --> author
