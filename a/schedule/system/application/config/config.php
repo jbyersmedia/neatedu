@@ -11,8 +11,8 @@
 |	http://example.com/
 |
 */
-/* $config['base_url']	= "http://www.neatedu.net/a/schedule/"; */
-$config['base_url']	= "//stage4.byersmedia.com/a/schedule/";
+$config['base_url']	= "//www.neatedu.net/a/schedule/";
+/* $config['base_url']	= "//stage4.byersmedia.com/a/schedule/"; */
 
 /*
 |--------------------------------------------------------------------------

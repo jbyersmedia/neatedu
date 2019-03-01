@@ -38,6 +38,20 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = "db";
+$db['default']['username'] = "neatedun";
+$db['default']['password'] = "mj749Hm9Bm";
+$db['default']['database'] = "neatedun";
+$db['default']['dbdriver'] = "mysql";
+$db['default']['dbprefix'] = "";
+$db['default']['pconnect'] = TRUE;
+$db['default']['db_debug'] = TRUE;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = "";
+$db['default']['char_set'] = "utf8";
+$db['default']['dbcollat'] = "utf8_general_ci";
+
+/*
+$db['default']['hostname'] = "db";
 $db['default']['username'] = "xsyrnlep";
 $db['default']['password'] = "wuL@;9pC8NDt49";
 $db['default']['database'] = "xsyrnlep";
@@ -49,7 +63,7 @@ $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = "";
 $db['default']['char_set'] = "utf8";
 $db['default']['dbcollat'] = "utf8_general_ci";
-
+*/
 
 /* End of file database.php */
 /* Location: ./system/application/config/database.php */

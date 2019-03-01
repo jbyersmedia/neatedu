@@ -4,30 +4,31 @@ class Eventsmodel extends Model {
 
     function Eventsmodel() { parent::Model(); }
 
-	function for_site($id) {
+	function for_site($id=null,$rid=null) {
 
 		$query = '
 			SELECT
 			e.eventID,
 			e.eventName,
 			e.eventHost,
+			s.siteID,
 
 			DATE_FORMAT(d.eventDate,"%W %M %e, %Y") AS eventDate,
 			DATE_FORMAT(d.timeConnect, "%l:%i %p") AS timeConnect,
 			DATE_FORMAT(d.timeStart, "%l:%i %p") AS timeStart,
 			DATE_FORMAT(d.timeEnd, "%l:%i %p") AS timeEnd,
-
-			GROUP_CONCAT(
-				REPLACE(CONCAT(s.siteName, " (", r.roomName,")"), "\n", "")
+				
+			  GROUP_CONCAT(
+				REPLACE(CONCAT("<a href='. base_url() .'sites/detail/",s.siteID,">",s.siteName, "</a> (<a href='. base_url() .'rooms/detail/",r.roomID,">", r.roomName,"</a>)"), "\n", "")
 				ORDER BY s.siteName ASC
 				SEPARATOR "\n"
-				) AS siteList
+				) AS siteList 
 
 			FROM ressched_Events AS e
 			JOIN ressched_EventDatesTimes AS d ON e.eventID = d.eventID
 
 			LEFT JOIN ressched_EventsOtherSites AS o ON e.eventID = o.eventID
-			JOIN ressched_Sites AS s ON o.otherSiteCode = s.siteCode AND s.sitePublish = "Y"
+			JOIN ressched_Sites AS s ON o.otherSiteCode = s.siteCode AND s.sitePublish = "Y" AND s.regionID = '. $rid[0]['regionID'] .'
 			JOIN ressched_SiteRooms AS r ON s.siteID = r.siteID AND o.otherSiteRoomCode = r.roomCode AND r.roomPublished = "Y"
 
 			WHERE 1
@@ -56,30 +57,31 @@ class Eventsmodel extends Model {
 	}
 
 
-	function two_day($id) {
+	function two_day($id=null,$rid=null) {
 
 		$query = '
 			SELECT
 			e.eventID,
 			e.eventName,
 			e.eventHost,
+			s.siteID,
 
 			DATE_FORMAT(d.eventDate,"%W %M %e, %Y") AS eventDate,
 			DATE_FORMAT(d.timeConnect, "%l:%i %p") AS timeConnect,
 			DATE_FORMAT(d.timeStart, "%l:%i %p") AS timeStart,
 			DATE_FORMAT(d.timeEnd, "%l:%i %p") AS timeEnd,
-
-			GROUP_CONCAT(
-				REPLACE(CONCAT(s.siteName, " (", r.roomName,")"), "\n", "")
+				
+			  GROUP_CONCAT(
+				REPLACE(CONCAT("<a href='. base_url() .'sites/detail/",s.siteID,">",s.siteName, "</a> (<a href='. base_url() .'rooms/detail/",r.roomID,">", r.roomName,"</a>)"), "\n", "")
 				ORDER BY s.siteName ASC
 				SEPARATOR "\n"
-				) AS siteList
+				) AS siteList 
 
 			FROM ressched_Events AS e
 			JOIN ressched_EventDatesTimes AS d ON e.eventID = d.eventID
 
 			LEFT JOIN ressched_EventsOtherSites AS o ON e.eventID = o.eventID
-			JOIN ressched_Sites AS s ON o.otherSiteCode = s.siteCode AND s.sitePublish = "Y"
+			JOIN ressched_Sites AS s ON o.otherSiteCode = s.siteCode AND s.sitePublish = "Y" AND s.regionID = '. $rid .'
 			JOIN ressched_SiteRooms AS r ON s.siteID = r.siteID AND o.otherSiteRoomCode = r.roomCode
 
 			WHERE 1

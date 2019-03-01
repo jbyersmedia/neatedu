@@ -6,7 +6,7 @@ class Sites extends Controller {
 		$data['title'] = 'ITV Sites';
 
 		$this->load->model('Sitesmodel');
-		$data['sites'] = $this->Sitesmodel->only_neat();
+		$data['sites'] = $this->Sitesmodel->neat_site();
 
 		$this->load->view('header.php', $data);
 		$this->load->view('sites/sites.php');

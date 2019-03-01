@@ -13,8 +13,9 @@ class Siteroomsmodel extends Model {
 		$this->db->where('sitePublish', 'Y');
 		$this->db->where('siteNeatMember', 'Y');
 		$this->db->where('roomPublished', 'Y');
+		$this->db->where('regionID', 1);
 		$data = $this->db->get();
-
+		
 		if ($data->num_rows() > 0) { $result = $data->result_array(); } else { $result = false; }
 
 		return $result;

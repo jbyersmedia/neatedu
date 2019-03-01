@@ -10,7 +10,14 @@
 
 <table id="ScheduleListing" class="Modules">
 
-	<?PHP foreach ($events as $e) { ?>
+	<?PHP foreach ($events as $e) { 
+	
+/*	echo "<pre>";
+ 	print_r($e);
+	exit; */
+	
+	
+	?>
 	
 		<?PHP if ($e['eventDate'] != $lastdate) { $lastdate = $e['eventDate']; ?>
 		<tr class="header"><th colspan="5"><?=htmlentities($e['eventDate'])?></th></tr>
@@ -31,7 +38,7 @@
 	
 	<tr class="otherlocs">
 	<td colspan="3" valign="top">Host: <?=htmlentities($e['eventHost'])?></td>
-	<td colspan="1" valign="top"><strong>Sites with this Course/Meeting</strong><br /><br /><?=preg_replace('/[\n]+/', '<br />', htmlentities($e['siteList']))?></td>
+	<td colspan="1" valign="top"><strong>Sites with this Course/Meeting</strong><br /><br /><?=preg_replace('/[\n]+/', '<br />', $e['siteList'])?></td>
 	</tr>
 
 	<?PHP } ?>

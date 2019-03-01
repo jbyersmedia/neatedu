@@ -149,3 +149,5 @@ div.Modules, div.Message {
   #LeftCol { display: none; }
   .Modules { background-color: white; }
 }
+#Chooser #region{display:block;margin:10px 0px;}
+#Chooser #region,#Chooser #sites{width:63%;}
